@@ -1,5 +1,20 @@
 # BookShop
 
+### Структура
+
+- theme-switcher.js - для перемикача теми.
+- fetch-categories.js - для отримання списку категорій.
+- fetch-best-sellers.js - для отримання списку найпопулярніших книг.
+- mobile-menu.js - для мобільного меню.
+- support-ukraine.js - для відображення підтримки України.
+- fetch-books-by-category.js - для отримання книг за категорією.
+- auth-modal.js - для модального вікна авторизації.
+- authentication.js - для аутентифікації користувача.
+- user-bar.js - для панелі користувача.
+- scroll-to-top.js - для кнопки прокрутки до верху.
+- book-modal.js - для модального вікна книги.
+- logout.js - для виходу з облікового запису.
+
 ### SASS
 
 глобально:
@@ -70,6 +85,11 @@ Notify.failure("Це повідомлення про помилку!");
 
 ```
 npm install notiflix
+```
+
+### Another
+
+```
 
 npm install body-scroll-lock
 
