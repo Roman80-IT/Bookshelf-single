@@ -1,6 +1,18 @@
 # BookShop
 
+### SASS
+
+глобально:
+
+```
 npm install -g sass
+```
+
+локально:
+
+```
+npm install sass --save-dev
+```
 
 ### Axios
 
