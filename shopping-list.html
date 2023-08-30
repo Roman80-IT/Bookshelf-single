@@ -3,24 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bookshelf</title>
+    <title>Shopping List</title>
     <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
     <link rel="icon" type="image/png" href="./images/favicon.png" />
     <link rel="stylesheet" href="./sass/index.scss" />
   </head>
-  <body>
+  <body id="shopping-list">
     <header>
-      <include src="./partials/header-main.html"></include>
+      <include src="./partials/header-shopping-list.html"></include>
     </header>
     <div class="container">
       <aside>
-        <include src="./partials/categories.html"></include>
         <include src="./partials/support-ukraine.html"></include>
       </aside>
-      <main class="books"></main>
+      <main class="main-shopping">
+        <include src="./partials/shopping-in-progress.html"></include>
+        <include src="./partials/modal.html"></include>
+        <include src="./partials/auth-modal.html"></include>
+      </main>
     </div>
-    <include src="./partials/modal.html"></include>
-    <include src="./partials/auth-modal.html"></include>
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="./shopping-list.js"></script>
   </body>
 </html>
