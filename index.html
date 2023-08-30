@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf</title>
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./sass/index.scss" />
+  </head>
+  <body class="preload">
+    <header>
+      <include src="./partials/header-main.html"></include>
+    </header>
+    <div class="container">
+      <aside>
+        <include src="./partials/categories.html"></include>
+        <include src="./partials/support-ukraine.html"></include>
+      </aside>
+      <main class="books"></main>
+    </div>
+    <include src="./partials/modal.html"></include>
+    <include src="./partials/auth-modal.html"></include>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
